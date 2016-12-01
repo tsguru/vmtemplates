@@ -22,8 +22,8 @@ Vagrant.configure("2") do |config|
 #  config.vm.box = "ubuntu/trusty32"
 #  config.vm.box = "ubuntu/xenial32"
 #  config.vm.box = "bento/centos-7.2"
-  config.vm.box = "tsguru/redhat64-7.3"
-  config.vm.box_url ="http://truesight.guru/boxes/redhat64-7.3"
+  config.vm.box = "tsguru/centos64-7.3"
+  config.vm.box_url ="http://truesight.guru/boxes/centos64-7.3.box"
 
   config.vm.define "asterix" do |asterix|
     asterix.vm.host_name = "asterix"
